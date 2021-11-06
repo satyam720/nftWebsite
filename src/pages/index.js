@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Hero from '../container/LandingPage/Hero/index'
 
 export default function Home() {
   return (
@@ -8,10 +9,8 @@ export default function Home() {
       <Head>
         <title>NFT Website</title>
         <meta name="description" content="Get you own NFTs" />
-        
       </Head>
-
-      
+      <Hero />
     </div>
   )
 }
