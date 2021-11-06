@@ -10,9 +10,9 @@ export const HeroBody = styled.div`
 
 export const HeroTitle = styled.h1`
     font-size: 4rem;
-    color: #E94560;
-    text-shadow: 0.25em 0.005em 0 #03C4A1;
-    text-shadow: 0.25em 0.005em 0 #0F3460;
+    color: #fff;
+    text-shadow: 0.005em 0.005em 0 #03C4A1;
+    text-shadow: 0.005em 0.005em 0 #0F3460;
 
 `
 

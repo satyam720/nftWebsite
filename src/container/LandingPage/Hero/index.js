@@ -1,5 +1,4 @@
 import { Grid, Item } from "@mui/material";
-import HeroImage from '../../../../public/images/Group_354.png'
 import {HeroBody, HeroTitle,HeroSubTitle, KnowMore } from "./hero.style";
 import TextField from '@mui/material/TextField';
 import { Button } from '@mui/material';
@@ -20,7 +19,7 @@ const Hero = () => {
         />
       </Grid>
       <Grid item lg={6} xs={12}>
-        <img src={HeroImage} alt="Timt" />
+        <img src='images/Group_354.png' alt="Timt" />
       </Grid>
     </Grid>
     </HeroBody>
